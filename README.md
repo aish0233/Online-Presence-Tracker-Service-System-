@@ -1,102 +1,56 @@
-# Online-Presence-Tracker-Service-System-
-Build a Presence service, similar to that of google docs, which shows people that are currently viewing a particular doc.
+This project was bootstrapped with Create React App.
 
-body {
-    padding:0;
-    margin:0;
-    font-family: 'Roboto', sans-serif;
-}
+Available Scripts
+In the project directory, you can run:
 
-header {
-    border-bottom: 1px solid #b6b6b6;
-    box-sizing: border-box;
-    padding: 17px;
-    background: #dfdfdf;
-    margin-bottom: 10px;
-}
+yarn start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-header a {
-    padding: 5px 10px;
-    background: #2196F3;
-    margin-right: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: 500;
-}
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-.container {
-    padding: 10px 20px;
-}
+yarn test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-.form_element {
-    margin: 20px 0px;
-}
+yarn build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-.form_element label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 20px;
-    font-weight: 300;
-}
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-input {
-    font-size: 20px;
-    padding: 8px 12px;
-    box-sizing: border-box;
-}
+See the section about deployment for more information.
 
-button {
-    background: #3F51B5;
-    color: #fff;
-    font-size: 15px;
-    padding: 10px 20px;
-}
+yarn eject
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-select {
-    width: 236px;
-    font-size: 15px;
-}
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-.label_error {
-    color: #FF5722;
-    font-weight: 600;
-    margin-top: 10px;
-}
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-.alert {
-    padding: 20px;
-    background-color: #f44336; 
-    color: white;
-    margin-bottom: 15px;
-    margin-left: 10%;
-    margin-right: 70%;
-  }
-  
-.alert.success {background-color: #4CAF50;}
-.alert.info {background-color: #2196F3;}
-.alert.warning {background-color: #ff9800;}
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-  .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
+Learn More
+You can learn more in the Create React App documentation.
 
-  .closebtn:hover {
-    color: black;
-  }
+To learn React, check out the React documentation.
 
-  .padding{
-      margin-top: 5%;
-  }
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-.sign_up{
-    padding-left: 5%;
-    padding-top: 2%;
-}
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+yarn build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
