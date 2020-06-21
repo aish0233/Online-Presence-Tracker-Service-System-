@@ -1,2 +1,102 @@
 # Online-Presence-Tracker-Service-System-
 Build a Presence service, similar to that of google docs, which shows people that are currently viewing a particular doc.
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #b6b6b6;
+    box-sizing: border-box;
+    padding: 17px;
+    background: #dfdfdf;
+    margin-bottom: 10px;
+}
+
+header a {
+    padding: 5px 10px;
+    background: #2196F3;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.container {
+    padding: 10px 20px;
+}
+
+.form_element {
+    margin: 20px 0px;
+}
+
+.form_element label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input {
+    font-size: 20px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #3F51B5;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+select {
+    width: 236px;
+    font-size: 15px;
+}
+
+.label_error {
+    color: #FF5722;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 70%;
+  }
+  
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .closebtn:hover {
+    color: black;
+  }
+
+  .padding{
+      margin-top: 5%;
+  }
+
+.sign_up{
+    padding-left: 5%;
+    padding-top: 2%;
+}
