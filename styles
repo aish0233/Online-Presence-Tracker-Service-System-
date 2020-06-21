@@ -1,0 +1,106 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@aish0233 
+Rishabh1998
+/
+Online-Presence-Tracker
+1
+00
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+Online-Presence-Tracker/src/styles/presence.css
+@Rishabh1998 Rishabh1998 initialized
+8363f34 11 hours ago
+68 lines (58 sloc)  1.23 KB
+  
+.container{
+    padding: 10%;
+}
+.user{
+    
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.button{
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: green;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    margin: -1%;
+  }
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    margin: -1%;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .numberCircle {
+    border-radius: 50%;
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #666;
+    border: 2px solid #666;
+    color: #fff;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
